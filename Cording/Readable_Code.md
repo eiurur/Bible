@@ -130,4 +130,165 @@
 
 # ループとロジックの単純化
 
--
+
+## 制御フロー
+
+**条件式の引数の並び順**
+
+if文
+
+    if (length >= 10)
+
+変数は左。定数は右。
+
+
+**if/elseブロックの並び順**
+
+- 条件は否定形よりも肯定系を使う。
+- 単純な条件を先に書く。
+- 関心を引く条件や目立つ条件を先に書く
+
+**do/whileループは避ける**
+
+ループ条件は前もって書かれているほうが好ましい
+
+
+## 巨大な式を分割する
+
+**説明変数**
+
+式を表す変数を「説明変数」という。
+
+    username = line.split(':')[0].strip();
+    if(username == "root"){}
+
+**要約変数**
+
+大きなコードの塊を小さな名前に置き換えて、管理や把握を簡単にする変数のことを「要約変数」という。
+
+    var user_owns_document = (request.user.id === document.owner_id);
+
+    if (user_owns_document) {
+      // ユーザはこの文書を編集できる
+    }
+
+    if (!user_owns_document) {
+      // 文書は読み取り専用
+    }
+
+**ド・モルガンの法則を使う**
+
+not を分配して and/or を反転する
+
+    if (!(a && !b)) return c;
+
+下は上と同意
+
+    if (!a || b) return c;
+
+## 変数と読みやすさ
+
+**変数を削除する**
+
+- 役に立たない一時変数
+- 中間結果を削除する
+- 制御フロー変数を削除する
+
+    var done = false;
+
+    whiel(/* 条件 */ && !done) {
+
+      if(...) {
+        done = true;
+        continue;
+      }
+
+    }
+
+`done`いらなくね？こうすればよくね？
+
+    while(/* 条件 */) {
+
+      if(...) {
+        break;
+      }
+    }
+
+Q. `break`が使えないようなネストが何段階もあるループはどうするの？
+
+A. コード(ループ内部のコードやループ全体)を新しい関数に移動するといい。
+
+**変数のスコープを縮める**
+
+- ローカル変数に格下げする
+- メソッドをstaticにする( = メンバ変数とは関係ないことを表す)
+- 大きなクラスを小さなクラスに分割する (お互いのクラスは独立していないと意味ない)
+
+**定義の位置を下げる**
+
+すべての変数を関数の先頭で定義する必要はない。変数の定義は変数を使う直前に移動すればいい。
+
+**変数は一度だけ書き込む**
+
+「永続的に変更されない」変数は扱いやすい。
+
+
+Before:
+
+    var setFirsetEmptyInput = function(new_value) {
+      var found = false;
+      var i = 1;
+      var elem = document.getElementById('input' + i);
+      while (elem !== null) {
+        if (elem.value === '') {
+          found = true;
+          break;
+        }
+        i++;
+        elem = document.getElementById('input' + i);
+      }
+      if (founf) elem.value = new_value;
+      return elem;
+    };
+
+After:
+
+    var setFirsetEmptyInput = function(new_value) {
+      for (var i = i; true; i++) {
+        var elem = document.getElementById('input' + i);
+        if (elem === null) {
+          return null;
+        }
+
+        if (elem.value === '') {
+          elem.value = new_value;
+          return elem;
+        }
+      }
+    };
+
+<br><br>
+
+# コードの再構成
+
+具体的に、コードを再構成する3つの方法
+
+- プログラムの主目的と関係のない「無関係の下位問題」を抽出する。
+- コードを再構築して、一度に1つのことをやるようにする。
+- 最初にコードを言葉で説明する。その説明を元にしてきれいな解決策を作る。
+
+***
+
+**一度に1つのことを**
+
+**短いコードを書く**
+
+*最も読みやすいコードは。何も書かれていないコードだ。*
+
+本当に必要な機能なの？実装しなきゃいけないの？
+
+まとめ
+
+- 不必要な機能をプロダクトから削除する。過剰な機能を持たせない。
+- 最も簡単に問題を解決できるような要求を考える。
+- 定期的にすべてのAPIを読んで、標準ライブラリに慣れ親しんでおく
