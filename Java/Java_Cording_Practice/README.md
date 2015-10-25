@@ -746,6 +746,10 @@ for文の使用禁止
 
 ### 繰り返し処理中のオブジェクトの生成は要否を考える
 
+- 繰り返し処理のループの内側で、オブジェクトを生成してすぐに破棄する処理があると、消費メモリと処理時間のコストが大きくなります。
+- プログラムの構造を見直して、オブジェクトをループの外側でnewして、ループ内側ではオブジェクトを再利用できるように工夫します。
+
+
 
 ### 繰り返し処理のループの中にtry/catchブロックを記述しない
 
@@ -870,7 +874,7 @@ switch文の構文で、swtich(式)～の式に`String`型が使用できます�
 
 **Good**
 
-  あー
+    あー
 
 ### catch文でキャッチする例外は詳細な例外クラスでキャッチする
 
@@ -948,21 +952,21 @@ finallyブロックは必ず実行されます。tryブロックまたはcatch�
 
 **Good**
 
-/**
- * <pre>
- * 前回の実行結果ファイルを読み込み、ディレクトリに存在するファイルの最終更新日が
- * 前回から変更なく、チェックの対象外となったファイルを削除します。
- * </pre>
- *
- * @params oldDataBox
- *   前回の実行結果データ
- * @params documentNameList
- *   ディレクトリに存在するファイル名一覧
- * @throws ProjectDashboardException
- *   ファイルが削除できないときの例外
- */
-public static void removeNoUpdatedFile(DataBox oldDataBox, List<File> documentNameList) throws ProjectDashboardException {
-  :
-}
+    /**
+     * <pre>
+     * 前回の実行結果ファイルを読み込み、ディレクトリに存在するファイルの最終更新日が
+     * 前回から変更なく、チェックの対象外となったファイルを削除します。
+     * </pre>
+     *
+     * @params oldDataBox
+     *   前回の実行結果データ
+     * @params documentNameList
+     *   ディレクトリに存在するファイル名一覧
+     * @throws ProjectDashboardException
+     *   ファイルが削除できないときの例外
+     */
+    public static void removeNoUpdatedFile(DataBox oldDataBox, List<File> documentNameList) throws ProjectDashboardException {
+      :
+    }
 
 
