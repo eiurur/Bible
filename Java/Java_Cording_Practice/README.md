@@ -860,10 +860,72 @@ switch文の構文で、swtich(式)～の式に`String`型が使用できます�
 
 **Good**
 
-    あー
+    MessageReader reader = null;
+    try {
+      // ストリームの作成
+      reader = connection.get(conId);
+      // 業務設定メッセージを読み込み、インスタンスを生成する。
+      while (reader.ready()) {
+        String[] projectInfo = reader.readLine().split(".");
+        if (projectInfo == 2) {
+            defineList.add(projectInfo);
+        }
+      }
+    } catch (IOException e) {
+      throw new ProjectDashboardException(Serverity.WARNING, "0011", e, url);
+    } finally {
+      try {
+        if (reader != null) {
+          // ストリームをクローズする
+          connection.close(reader);
+        }
+      } catch (IOException e) {
+        Common.logProjectDashboardError(Serverity.WARNING, "0023", e);
+      } catch (Exception e) {
+        Common.logProjectDashboardError(Serverity.ERROR, "0001", e);
+      }
+    }
+
+- オープンしたストリームは確実にクローズする必要があります
+- ストリームのオープン、アクセス、クローズの一連の処理のうち、オープンとアクセスはtryブロックの中にコーディングします。ストリームの処理中に例外が発生したら、catchブロックで後始末を行います。
+- `AutoCloseable`を実装していないストリームを扱う場合は、最後にfinallyブロックの中でストリームをクローズすることで、不要になったストリーム資源が解放されます。
+  - この際に、クローズ処理をするオブジェクトに対する`null`チェックを必ず行います。
 
 ### AutoCloseableを実装しているストリームを扱うときはリソース付きtry文を使用する
 
+- `try-with-resourecs`表記では、try直後の小かっこ「()」の内側で、自動的なクローズを必要とするリソースを定義します。
+- リソースの定義は、変数を宣言してストリームなどのオブジェクトで初期化します。
+  - セミコロンで区切ることで複数のリソースが定義できます。
+  - リソースの定義には型の宣言子が必要です。
+- リソースの定義に続いて、try文のブロックを記述します。リソースとして定義した変数のスコープは、このブロックの内側のみになります。
+
+**Good**
+
+    try {
+      InputStream in = new FileInputStream(url);
+
+      // tryの後の小かっこ内でストリームをなどを宣言し、生成する
+      InputStreamReader streamReader = new InputStreamReader(in, UTF_8);
+
+      // セミコロンで区切って複数のストリームやオブジェクトが生成できる。
+      BufferedReader reader = new BufferedReader(streamReader);
+
+      // 業務設定メッセージを読み込み、インスタンスを生成する。
+      while (reader.ready()) {
+        String[] projectInfo = reader.readLine().split(".");
+        if (projectInfo == 2) {
+            defineList.add(projectInfo);
+        }
+      }
+    }　catch (IOException e) {
+      throw new ProjectDashboardException(Serverity.WARNING, "0012", e, url);
+    } catch (Exception e) {
+      throw new ProjectDashboardException(Serverity.WARNING, "0011", e, url);
+    }
+
+- Java SE7以降は、try文の構文を拡張した`try-with-resourecs`(リソース付きtry文)という表記が導入されました。
+- この新しい構文を利用してオープンしたストリーム(`AutoCloseable`インタフェースを実装しているオブジェクト)は、try文のブロックを抜ける際に自動的にクローズされます。
+  - ソースコードでは、クローズ処理自体、およびクローズ中に発生するかもしれない例外への対処を書く必要がなくなります。
 
 ### ストリームの操作でバッファ入出力を使う
 
