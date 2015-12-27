@@ -1,0 +1,1148 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tweet",
+				"tweetTokened"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"toek",
+				"tokenize"
+			],
+			[
+				"tweetOn",
+				"tweetOnlyTextFilteredRetweet"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"twe",
+				"tweetTokened"
+			],
+			[
+				"IMAGES",
+				"IAMGES_DIR_NAME"
+			],
+			[
+				"rese",
+				"resemble	(package.json)"
+			],
+			[
+				"i",
+				"index"
+			],
+			[
+				"sc",
+				"scraper"
+			],
+			[
+				"idx",
+				"idxPage"
+			],
+			[
+				"create",
+				"createHash	(my.coffee)"
+			],
+			[
+				"bg",
+				"bgGreen	(Downloader.coffee)"
+			],
+			[
+				"downlo",
+				"downloader	(Downloader.coffee)"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"dow",
+				"download"
+			],
+			[
+				"don",
+				"downloader"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"img",
+				"imgUrl"
+			],
+			[
+				"ind",
+				"individualUrl"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"Con",
+				"Constatns"
+			],
+			[
+				"face_d",
+				"face_id_first"
+			],
+			[
+				"resutg",
+				"resultGetGroupInfo"
+			],
+			[
+				"result",
+				"resultTrainIdentify"
+			],
+			[
+				"resul",
+				"resultRecognitionIdentify"
+			],
+			[
+				"resu",
+				"resultRecognitionIdentify"
+			],
+			[
+				"group",
+				"group_name"
+			],
+			[
+				"person",
+				"person_name"
+			],
+			[
+				"face_",
+				"face_id"
+			],
+			[
+				"per",
+				"person_name	(person_management.coffee)"
+			],
+			[
+				"dete",
+				"detectionResult"
+			],
+			[
+				"face",
+				"faceIdList"
+			],
+			[
+				"ts",
+				"test	(package.json)"
+			],
+			[
+				"guestPos",
+				"guestPosition	(guestPosition.coffee)"
+			],
+			[
+				"photo",
+				"photoId"
+			],
+			[
+				"delet",
+				"deleteById"
+			],
+			[
+				"delete",
+				"deleteByGuestId	(api.coffee)"
+			],
+			[
+				"phot",
+				"photoId"
+			],
+			[
+				"rs",
+				"result"
+			],
+			[
+				"findLA",
+				"findLatestByTableId	(facePlusPluses.coffee)"
+			],
+			[
+				"find",
+				"findByTableId	(orders.coffee)"
+			],
+			[
+				"guestPOs",
+				"guestPositionProvider	(facePlusPluses.coffee)"
+			],
+			[
+				"tas",
+				"tableSeatedTime"
+			],
+			[
+				"forma",
+				"formatHHmmss	(my.coffee)"
+			],
+			[
+				"tableS",
+				"tableSeatedTime"
+			],
+			[
+				"detec",
+				"detectionResultList"
+			],
+			[
+				"order",
+				"orderString"
+			],
+			[
+				"fa",
+				"facePlusPlusPhotos"
+			],
+			[
+				"pdf",
+				"pdfParser"
+			],
+			[
+				"getg",
+				"guestGetResultList"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"FK_",
+				"FK_guestId"
+			],
+			[
+				"guest",
+				"guestGetResultList"
+			],
+			[
+				"D",
+				"DBOperationHelper"
+			],
+			[
+				"guestPo",
+				"guestPositionProvider"
+			],
+			[
+				"table",
+				"tableId"
+			],
+			[
+				"id",
+				"idx	(my.coffee)"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"fina",
+				"filename"
+			],
+			[
+				"err",
+				"error	(registerService.coffee)"
+			],
+			[
+				"cat",
+				"catch	(terminals.coffee)"
+			],
+			[
+				"all",
+				"allergyIdx"
+			],
+			[
+				"selec",
+				"selectedAllergyList"
+			],
+			[
+				"alle",
+				"allergyList"
+			],
+			[
+				"aller",
+				"allergyList"
+			],
+			[
+				"ise",
+				"isSelected"
+			],
+			[
+				"isSe",
+				"isSelected	(update.jade)"
+			],
+			[
+				"al",
+				"allergyList"
+			],
+			[
+				"alll",
+				"allergyListInjectedSelectedKey"
+			],
+			[
+				"Alle",
+				"AllergyListService	(allergyListService.coffee)"
+			],
+			[
+				"All",
+				"AllergyService	(updateController.coffee)"
+			],
+			[
+				"menuCate",
+				"menuCategoryId"
+			],
+			[
+				"ac",
+				"activateCode	(terminals.coffee)"
+			],
+			[
+				"ter",
+				"terminalActivateCode"
+			],
+			[
+				"save",
+				"saveImage	(my.coffee)"
+			],
+			[
+				"terin",
+				"terminalId"
+			],
+			[
+				"terminal",
+				"terminalActivateCode"
+			],
+			[
+				"PictC",
+				"PictCollection"
+			],
+			[
+				"getIl",
+				"getIllustratorData"
+			],
+			[
+				"set",
+				"setIllustratorRawData"
+			],
+			[
+				"twi",
+				"tweetListIncludePict"
+			],
+			[
+				"illu",
+				"illustratorRawData"
+			],
+			[
+				"pict",
+				"pictCollection"
+			],
+			[
+				"Pi",
+				"PictCollection"
+			],
+			[
+				"twitter",
+				"twitterIdStr"
+			],
+			[
+				"Ill",
+				"illustrator"
+			],
+			[
+				"Twitter",
+				"TwitterClient"
+			],
+			[
+				"add",
+				"addMember"
+			],
+			[
+				"next",
+				"nextCursor"
+			],
+			[
+				"load",
+				"loadMember"
+			],
+			[
+				"follow",
+				"followable"
+			],
+			[
+				"ama",
+				"amatsukaMemberList"
+			],
+			[
+				"cha",
+				"chain"
+			],
+			[
+				"List",
+				"ListService"
+			],
+			[
+				"screen",
+				"screenName"
+			],
+			[
+				"incl",
+				"include_entities"
+			],
+			[
+				"tw",
+				"twitterIdStr"
+			],
+			[
+				"scree",
+				"screenName"
+			],
+			[
+				"twee",
+				"TweetService"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"dire",
+				"direction"
+			],
+			[
+				"imageLay",
+				"imageLayer"
+			],
+			[
+				"imageL",
+				"imageLayerImg"
+			],
+			[
+				"retweet",
+				"retweetable"
+			],
+			[
+				"favorit",
+				"favoritable"
+			],
+			[
+				"favo",
+				"favoritable"
+			],
+			[
+				"scer",
+				"screen_name"
+			],
+			[
+				"media",
+				"media_url:orig"
+			],
+			[
+				"imageLayer",
+				"imageLayerCaptionHtml"
+			],
+			[
+				"image",
+				"imageLayer"
+			],
+			[
+				"imageLa",
+				"imageLayer"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"show",
+				"showStatus"
+			],
+			[
+				"sta",
+				"statuses"
+			],
+			[
+				"opt",
+				"optFile"
+			],
+			[
+				"infinite-",
+				"infinite-scroll"
+			],
+			[
+				"borer",
+				"border-radius"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"notif",
+				"notify"
+			],
+			[
+				"aw",
+				"aw2x_noise"
+			],
+			[
+				"form-",
+				"form-group"
+			],
+			[
+				"contne",
+				"content.js"
+			],
+			[
+				"alert",
+				"alertify"
+			],
+			[
+				"fail",
+				"failure"
+			],
+			[
+				"send",
+				"sendMessage"
+			],
+			[
+				"getA",
+				"getAllInWindow"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 500.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"encoding",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax ma ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sya",
+				"Set Syntax: Markdown"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"iinsta",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package c",
+				"Package Control: List Packages"
+			],
+			[
+				"cdn",
+				"Cdnjs: Search"
+			],
+			[
+				"cdnjs",
+				"Cdnjs: Search"
+			],
+			[
+				"cdnj",
+				"Cdnjs: Search"
+			],
+			[
+				"cd",
+				"Cdnjs: Search"
+			],
+			[
+				"csn",
+				"Cdnjs: Search"
+			],
+			[
+				"intsl",
+				"Package Control: Install Package"
+			],
+			[
+				"iinstall",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"togl",
+				"View: Toggle Menu"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"packaag",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 525.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/eiurur/Documents/Vagrant/debian7/Vagrantfile",
+		"/C/Users/eiurur/Documents/Blog/draft/eiua-memo/kuromoji_add_ipcdic_but_node_process_out_of_memory.md",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/Filler.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/neologd-adjective-std-dict-seed.20151126.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/gulpfile.js",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/build-dict.js",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/kuromoji.js/scripts/input/Suffix.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/package.json",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/feature.def",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/Conjunction.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/Noun.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/Noun.demonst.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/Noun.name.csv",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/mix-word/node_modules/kuromoji/scripts/input/Noun.nai.csv",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/mix-word/.env",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/mix-word/app.js",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/next-generation-xx/app.js",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/next-generation-xx/.env",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/next-generation-xx/.git/config",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-kuromoji/README.md",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-kuromoji/app.js",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-kuromoji/Twitter.js",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-kuromoji/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-resemblejs/README.md",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-kuromoji/.env",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-rrr/README.md",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-rrr/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/README.md",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/README.md",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/primer-phash/README.md",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/primer-phash/src/index.coffee",
+		"/C/Users/eiurur/Documents/Vagrant/debian7/github/primer-phash/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-resemblejs/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-resemblejs/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-angular2/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/winston-test/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/winston-test/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-cli-packages/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/winston-test/.gitignore",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/winston-test/README.md",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/winston-test/logs/test.log",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/winston-test/test.log",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/src/facePlusPlusClient.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/README.md",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/test/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/Kanojo/n.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/Kanojo/cafe.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/B/016.js",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/B/012.js",
+		"/C/Users/eiurur/Desktop/megane.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/A/009.js",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/Kanojo/megane.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/B/017.js",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/B/008.js",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/JavaScript/A/004.js",
+		"/C/Users/eiurur/Documents/GitHub/Paiza/CoffeeScript/B/016.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/README.md",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/src/Crawler.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/src/Scraper.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/src/Downloader.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/.gitignore",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/src/my.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/dl-yandere/.gitignore",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/casper-yandere/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/casper-yandere/build/index.js",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/casper-yandere/package.json",
+		"/C/Users/eiurur/Desktop/AsyncGet_get_with_rxjava.java",
+		"/C/Users/eiurur/Desktop/OrderActivityrListManager.asyncPostFinishService.java",
+		"/C/Users/eiurur/Desktop/AsyncGetPhotoByTableId.java",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-cli-packages/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-node-pixiv/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/primer-node-pixiv/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/config/default.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/npm-debug.log",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/faceplusplus/dust/person_management.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/PQWithWiki/README.md",
+		"/C/Users/eiurur/Desktop/programming_wiki.txt",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/cc/src/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/cc/index.html",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/cc/package.json",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/cc/README.md",
+		"/C/Users/eiurur/Google ドライブ/nginx_sakura_20151121.conf",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/throng/package.json",
+		"/C/Users/eiurur/Documents/GitHub/終了/Chino/data/node_modules/grunt-contrib-less/node_modules/less/gradle/wrapper/gradle-wrapper.properties",
+		"/C/Users/eiurur/Documents/GitHub/終了/ayase-heroku/data/node_modules/grunt-contrib-less/node_modules/less/gradle/wrapper/gradle-wrapper.properties",
+		"/C/Users/eiurur/Documents/GitHub/Subara/README.md",
+		"/C/Users/eiurur/Downloads/web_ex/えろげー！～Hもゲームも開発三昧～_体験版/readme.txt",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/lib/my.coffee",
+		"/C/Users/eiurur/Desktop/DragAndDrop_Reference_Kari.java",
+		"/C/Users/eiurur/Google ドライブ/大学/修士研究/20150610/14NM718H_藤嶋悠史.tex",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/routes/api/menus.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/routes/api/photos.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/public/coffee/services/colorService.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/routes/api/terminals.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/public/sass/_materialize.scss",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/routes/api.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/model/guest.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/model/guestPosition.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/model/photo.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/model/menuCategory.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/model/table.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/build/app/routes/api/facePlusPluses.js",
+		"/C/Users/eiurur/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/eiurur/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/routes/api/mails.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/model/terminal.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/public/coffee/common/services.coffee",
+		"/C/Users/eiurur/.wakatime.cfg",
+		"/C/Users/eiurur/Documents/Blog/draft/eiua-memo/Design_Pattern/README.md",
+		"/C/ProgramData/Microsoft/Windows/Start Menu/Programs/cmder/vendor/msysgit/doc/git/html/cmds-foreignscminterface.txt",
+		"/C/Users/eiurur/AndroidStudioProjects/Chienetsu/README.md",
+		"/C/Users/eiurur/Desktop/colors.scss",
+		"/C/Users/eiurur/Documents/GitHub/kakisute/pdf2json/index.coffee",
+		"/C/Users/eiurur/Documents/GitHub/Electrons/google-photo-electron/index.html",
+		"/C/Users/eiurur/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/eiurur/Documents/GitHub/test.txt",
+		"/C/Users/eiurur/Documents/GitHub/EIP-DDD.md",
+		"/C/Users/eiurur/Documents/GitHub/Amatsuka/.git/config",
+		"/C/Users/eiurur/Documents/GitHub/google-photo-electron/package.json",
+		"/C/Users/eiurur/Documents/GitHub/google-photo-electron/main.js",
+		"/C/Users/eiurur/Documents/GitHub/google-photo-electron/index.html",
+		"/C/Users/eiurur/Downloads/新ピンクの部屋/注意事項.txt",
+		"/C/Users/eiurur/Documents/GitHub/Subara/config/app.yml",
+		"/C/Users/eiurur/Downloads/_inbox/connection-booster/README.md",
+		"/C/Users/eiurur/Documents/GitHub/Subara/src/app/routes/api/users.coffee"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 152.0,
+		"where_history":
+		[
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\gulp",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\save_to_onaitlater",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\onaitlater",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\onaitlater\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\onaitlater/src",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\onaitlater",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\onaitlater\\src\\app\\public",
+			"C:\\Users\\eiurur\\Documents\\vagrant_debian7\\github\\onaitlater\\src\\app\\views",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\src\\model",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Chino\\site",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\src,C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\src,C:\\Users\\eiurur\\Documents\\GitHub\\Subara\\test",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Subara",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\xampp\\htdocs\\2_2\\12t4057h_藤井駿平\\src\\12t4057h",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src\\app\\",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src\\app\\public\\images",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\build",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\flfl\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka\\src",
+			"C:\\Users\\eiurur\\Documents\\GitHub\\Amatsuka",
+			"/Amatsuka",
+			"amatsuka",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var",
+			",",
+			"jsdoc",
+			"');",
+			"jsdoc",
+			"jsdoc[",
+			"jsdoc",
+			"js-doc",
+			"seed/",
+			"process",
+			"tweetOnlyTextFilteredRetweet",
+			"matchesProperty",
+			"source.id_str",
+			"\"#{",
+			"=",
+			"(hash) -> ",
+			"hashes.push ",
+			"fs.readFileSync ",
+			"Image =",
+			"Image",
+			"hash ->",
+			"hash",
+			"jpg",
+			"IMAGES_DIR",
+			"IAMGES",
+			"logs'",
+			"'",
+			" target=\"_blank\"",
+			".replace 'sample', @jpeg",
+			"size",
+			"src",
+			"underline",
+			"page",
+			"(@",
+			" ]",
+			"directory",
+			"getRandomInt",
+			"createUID",
+			"[]",
+			"-",
+			"NAME",
+			"name",
+			"Name",
+			".then ->",
+			"finally",
+			".finally",
+			"faceInfoResult",
+			"getF",
+			"detectionResult",
+			"config",
+			"おええいえ",
+			"undefined",
+			"VM845",
+			"VM816",
+			"VM803",
+			"Objective-C",
+			"ease",
+			"<li>",
+			"li",
+			"__",
+			"guestLocale",
+			"photoId",
+			"orderDeleteResultList",
+			"guestPositionDeleteResult",
+			"photoDeleteResulu",
+			"orderProvider.deleteByGuestId",
+			"/api/chainStores",
+			"\n    # # TODO:  テーブルIdから今在席しているお客さんのguestIdと、isDeletedされていないorderIdを全て取得する。\n    # dbOperationHelper.guestProvider.update\n\n\n    # tasks = []\n    # _.each req.body.chainStoreInsertDataList, (chainStore) ->\n    #   tasks.push new Promise (resolve, reject) ->\n    #     dbOperationHelper = new DBOperationHelper()\n    #     dbOperationHelper.guestProvider.deleteById(params)\n    #     .then (data) ->\n    #       console.log '/api/chainStores data = ', data\n    #       # res.json data: data\n    #       return resolve data\n    #     .catch (err) ->\n    #       console.log '/api/chainStores err = ', err\n    #       # res.json err: err\n    #       return resolve err\n\n    # Promise.all tasks\n    # .then (dataList) ->\n    #   console.log '/api/chainStores/, Promise.all dataList', dataList\n    #   res.json dataList: dataList\n    # .catch (errList) ->\n    #   console.log errList\n    #   res.json errList: errList\n\n    # # TODO: ゲスト情報(guestInfo)を全て消去  \n    # params = photoId: result.photoId\n    # dbOperationHelper.guestPositionProvider.deleteByPhotoId(params)\n    # .then (data) ->\n\n\n    # # TODO: ゲストの位置情報(guestPosition)を全て消去\n    # dbOperationHelper.guestProvider.update\n\n    # # TODO: オーダーを全て消去\n    # dbOperationHelper.orderProvider.update\n\n    # # TODO: 写真情報を消去\n    # dbOperationHelper.photoProvider.update",
+			"debug",
+			"PUT",
+			"/api/orders",
+			"orderOption",
+			"detect()",
+			"()",
+			"detect",
+			"DETECT",
+			"detect",
+			"-",
+			"-color--",
+			"background-color--blue",
+			"getRequiredDataOpenOrderActivity",
+			"result",
+			"saveImage",
+			"getRequiredDataOpenOrderActivity",
+			"orderList",
+			"/api/mail/send",
+			"Mailer",
+			"debug",
+			"orderString.split('__')",
+			"chainStoreId",
+			"chainStores",
+			"[ ]",
+			"req.query",
+			"getRequiredDataOpenOrderActivity",
+			"return false;",
+			"PhotoId",
+			"photoId",
+			"photoGetResult",
+			"req.body.tableId",
+			"detectionResultList",
+			"@tableId",
+			"photo",
+			"debug",
+			"findByBranchId",
+			"findByPhotoId",
+			"photoId",
+			"PhotoId",
+			"findByBranchId",
+			"tableId",
+			"TableId",
+			"tableId",
+			"JOIN",
+			"SELECT * FROM `guest_position` WHERE FK_photoId = 71",
+			"Promise.all",
+			"guestGetResult",
+			"getRequiredDataOpenOrderActivity",
+			"TableActivity",
+			"'",
+			"idName",
+			"空席",
+			"configs",
+			"在席中",
+			"空席",
+			"photoId",
+			"guestPositionCood",
+			"filename",
+			"img",
+			"Width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"coffeelint.json",
+			"normalize",
+			"Kawpaa",
+			"$base-color",
+			"Kawpaa",
+			"\n  incrementNumDone: (params) ->\n    return new Promise (resolve, reject) ->\n      console.log \"\\n============> Post incrementNumDone\\n\"\n      Post.update\n        _id: params.post.postObjectId\n      ,\n        $inc: numDone: 1\n      , (err, numberAffected, numDone) ->\n        if err then return reject err\n        return resolve numDone\n",
+			"$link-color",
+			"$main-color",
+			"$header-height",
+			"$sidebar-width",
+			"$sidebar-add-width",
+			"$base-color",
+			"$base-sub-color",
+			"$text-color",
+			"$accent-color",
+			"$sidebar-color",
+			"$divider-color",
+			"$menu-color",
+			"menu-color",
+			"menu-hover-color",
+			"chainStore",
+			"  ",
+			"d',\n      templateUrl: 'partials/index'\n      controller: 'IndexCtrl'\n    ).",
+			"DB_HOST"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Better CoffeeScript/CoffeeScript.sublime-build",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\eiurur\\Google ドライブ\\Blog類\\eiua-memo\\Angular_window_on_resize.md"
+			],
+			[
+				"gene",
+				"GitHub\\1draw-ranking\\node_modules\\request\\node_modules\\tough-cookie\\generate-pubsuffix.js"
+			],
+			[
+				"route",
+				"vagrant_debian7\\sevenstars\\config\\routes.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 362.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

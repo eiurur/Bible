@@ -54,7 +54,7 @@ CSS3開発者ガイド
       //
     }
 
-    test.html
+test.html
 
     <li>
       <a href="http://example.com" title="Image Library">Image</a> <!-- ここだけが該当する -->
@@ -87,6 +87,8 @@ CSS3開発者ガイド
 
     a[title*='image'] { ... }
 
+test.html
+
     <li>
       <a href="http://example.com" title="Image Library">Image</a> <!-- ここと該当する -->
     </li>
@@ -115,11 +117,13 @@ CSS3開発者ガイド
 - 子要素全体の中での位置
 - 単純に何番目の子要素かということが問題になる
 
+_
 
     p:nth-child(2n) {
       font-weight: bolder;
     }
 
+test.html
 
     <div>
       <h2>AAA</h2>
@@ -132,9 +136,13 @@ CSS3開発者ガイド
 
 - 特定の型の子要素の中での位置
 
+_
+
     p:nth-of-type(2n) {
       font-weight: bolder;
     }
+
+test.html
 
     <div>
       <h2>AAA</h2>
@@ -255,6 +263,7 @@ Faas(Font as a Service)ってのを使え。
 - break-word
 -- コンテナ要素からあふれないように、長い単語を折り返したいときに指定する(なかむらさんのtumblrっぽいあれ)
 
+_
 
     p.break {
       word-wrap: break-word;
@@ -280,37 +289,37 @@ Faas(Font as a Service)ってのを使え。
 
 **translate**
 
-E {
-  transform: translate(x, y);
-}
+    E {
+      transform: translate(x, y);
+    }
 
 例
 
-E {
-  transform: translate(20px, 15%);
-}
+    E {
+      transform: translate(20px, 15%);
+    }
 
 **scale**
 
-E {
-  transform: scaleX(value) scaleY(value);
-}
+    E {
+      transform: scaleX(value) scaleY(value);
+    }
 
 例
 
 上下左右の両方向に2倍する
 
-E {
-  transform: scaleXX(2) scaleY(2);
-}
+    E {
+      transform: scaleXX(2) scaleY(2);
+    }
 
 **skew**
 
 角度を変える
 
-E {
-  transform: skewX(value) skewY(value);
-}
+    E {
+      transform: skewX(value) skewY(value);
+    }
 
 <br>
 
@@ -333,15 +342,15 @@ CSSのトランジションとは、あるプロパティの値を徐々に変�
 
 ### 構文
 
-E {
-  transition: property duration timing-function delay;
-}
+    E {
+      transition: property duration timing-function delay;
+    }
 
 例
 
-h1 {
-  transition: font-size 2s ease-out 250ms;
-}
+    h1 {
+      transition: font-size 2s ease-out 250ms;
+    }
 
 ## アニメーション
 
@@ -355,15 +364,15 @@ CSS Animationモジュールはこの制約を受けず、要素に対してア�
 
 例
 
-@keyframes expand {
-  from { border-width: 4px; }
-  50% { border-width: 12px; }
-  to {
-    border-width: 4px;
-    height: 100%;
-    width: 100%;
-  }
-}
+    @keyframes expand {
+      from { border-width: 4px; }
+      50% { border-width: 12px; }
+      to {
+        border-width: 4px;
+        height: 100%;
+        width: 100%;
+      }
+    }
 
 継承は個々のキーフレームごとに発生します。つまり、上の例でいうと、`to`で`border-width`を指定しなかった場合、ボーダーの太さは対象の要素に当初から適用されていた値になります。
 
