@@ -21,18 +21,17 @@ OSやミドルウェアの設定を自動化するツール(Chef, Ansible)
 - サーバ群のオーケストレーション
 
 
-------
+<br><br>
 
 # 第二章 コンテナ仮想化技術とDocker
 
-### Dockerコンポーネント
+## Dockerコンポーネント
 
-#### Dockerイメージを作る
+### Dockerイメージを作る
 
 - Docker Engine
---
 
-#### Dockerコンテナを動かす
+### Dockerコンテナを動かす
 
 - Docker Compose
 - Docker Kitematic
@@ -43,8 +42,7 @@ OSやミドルウェアの設定を自動化するツール(Chef, Ansible)
 
 - Docker Registry
 
-
-------
+<br>
 
 ## Dockerイメージの操作
 
@@ -54,26 +52,36 @@ OSやミドルウェアの設定を自動化するツール(Chef, Ansible)
     docker pull centos:7
     docker pull registry.hub.docker.com/centos:7
 
+<br>
+
 イメージの一覧表示
 
     docker images
     docker images --digests eiurur/dockersample
+
+<br>
 
 イメージの詳細確認
 
     docker inspect
     docker inspect centos
 
+<br>
+
 イメージのタグ設定
 
     docker tag http:2.4 eiurur/webserver:1.0
     // => http:2.4という名前のイメージに対して、ユーザ名がeiurur、イメージ名がwebserver、タグにバージョン情報である1.0というタグをつける。
+
+<br>
 
 イメージの検索
 
     docker search
     docker search centos
     docker search --stars=30 centos
+
+<br>
 
 イメージの削除
 
@@ -82,11 +90,15 @@ OSやミドルウェアの設定を自動化するツール(Chef, Ansible)
     docker rmi 3f72
     // IMAGE IDでもよい
 
+<br>
+
 DockerHub関連
 
     docker login
     docker push eiurur/webserver:1.0
     docker logout
+
+<br>
 
 
 ## Dockerコンテナの生成/起動/停止
@@ -95,13 +107,14 @@ DockerHub関連
 
 ### ライフサイクル
 
-
 コンテナの生成
 
     docker run
     docker run -it --name "test" centos /bin/cal
     //=> コンテナを作成/実行 コンソールに結果を出すオプション コンテナ名 イメージ名 コンテナで実行するコマンド
     docker run -it --name "test2" centos /bin/bash
+
+<br>
 
 コンテナのバックグランド実行
 
@@ -114,6 +127,8 @@ DockerHub関連
 
     docker run -it --restart=always centos /bin/bash
     // => コンテナの常時再起動
+
+<br>
 
 コンテナのネットワーク設定
 
@@ -130,6 +145,8 @@ DockerHub関連
     docker run -it --hostname=www.test.com --add-host=node1.test.com:192.168.1.1 centos
     // => コンテナ自身のホスト名を指定するにはhostnameオプションを使用する
 
+<br>
+
 リソースを指定してコンテナを生成/実行
 
     docker run -c=512 -m=512m centos
@@ -138,6 +155,8 @@ DockerHub関連
     docker run -v /c/Users/eiurur/webpage:/var/www/html httpd
     // => ホストOSとコンテナ内のディレクトリを指定したいときは-vオプションを使用する。
     // => ホストのCドライブの/Users/eiurur/webpageディレクトリを、コンテナの/var/www/htmlディレクトリと共有するとき
+
+<br>
 
 コンテナを生成/起動する環境を指定
 
@@ -150,6 +169,8 @@ DockerHub関連
     docker run -it -w=/tmp/work centos /bin/bash
     // => コンテナの作業ディレクトリ(pwd)を指定して実行したいとき。コンテナの/tmp/workを作業ディレクトリにしている。
 
+<br>
+
 稼働コンテナの一覧表示
 
     docker ps
@@ -158,15 +179,21 @@ DockerHub関連
     docker ps -a -f 'name=test1'
     // => フィルタリング
 
+<br>
+
 コンテナの稼働確認
 
     docker stats
     docker stats apatche nginx
 
+<br>
+
 コンテナの起動(停止しているコンテナを起動する)
 
     docker start
     docker start コンテナID
+
+<br>
 
 コンテナの停止
 
@@ -174,10 +201,14 @@ DockerHub関連
     docker stop -t 2 コンテナID
     // => 2秒後にコンテナを停止する。
 
+<br>
+
 コンテナの再起動
 
     docker restart
     docker restart コンテナID
+
+<br>
 
 コンテナの削除
 
@@ -185,6 +216,8 @@ DockerHub関連
     docker rm コンテナID
     docker rm -f 'docker ps -a -q'
     // => 起動中のコンテナもすべて削除
+
+<br>
 
 ## 稼働しているコンテナの操作
 
@@ -198,6 +231,8 @@ DockerHub関連
     // => 接続したコンテナごと終了させるときはCtrl + C、
     // => コンテナを起動したままコンテナ内で動くプロセスのみを終了させるときはCtrl + q
 
+<br>
+
 稼働コンテナでプロセス実行
 
     docker exec
@@ -208,6 +243,8 @@ DockerHub関連
     docker exec -it nginx1 /bin/ping localhost
     // => コマンドを直接実行する。
 
+<br>
+
 コンテナ内のファイルをコピー
 
     docker cp test:/etc/passws /tmp/etc
@@ -216,6 +253,8 @@ DockerHub関連
     docker cp ./localhost.txt test:/tmp/test.txt
     // => ホストからコンテナへのファイルコピー
 
+<br>
+
 ## コンテナからイメージの作成
 
 コンテナからイメージを作成
@@ -223,11 +262,15 @@ DockerHub関連
     docker commit -a "eiurur" nginx1 eiurur/webfront:1.0
     // => nginx1という名前のコンテナをeiurur/webfrontという名前でタグ名を1.0に指定して、新しいイメージを作成する。
 
+<br>
+
 コンテナをtarファイル出力
 
     docker export
     docker export webap > latest.tar
     // => webapという名前のコンテナを、latest.tarという名前でtarファイルに出力する。。
+
+<br>
 
 tarファイルからイメージ作成
 
@@ -235,13 +278,15 @@ tarファイルからイメージ作成
     cat latest.tar | docker import - webap:1.0
     // => latest.tarにまとめられたディレクトリやgファイルをもとにwebapとぃう名前でタグ名が1.0のイメージを作成する
 
+<br>
+
 イメージの保存
-
-
 
     docker save
     dokcer save -o export.tar mongo
     // => mongoという名前のイメージを、export.tarに保存する。保存するファイル名の指定には-oオプションを指定する。
+
+<br>
 
 イメージの読み込み
 
@@ -259,12 +304,16 @@ dokcer saveしコマンドで保存したtarファイルからイメージを生
 
 もととなるイメージは同じであっても、内部的なディレクトリ/ファイルの構造が違う。それぞれ対になるコマンドを使うようにしてなくてはいけない
 
+<br>
+
 ## Dockerfileの基本
 
 DockerfileからDockerイメージの作成
 
     docker build -t [生成するイメージ名]:[タグ名] [Dockerfileの場所]
     docker build -t sample:1.0 /home/dokcer/sample
+
+<br>
 
 ### コマンド/デーモンの実行
 
@@ -273,6 +322,8 @@ DockerfileからDockerイメージの作成
     RUN echo こんにちはShell形式
     RUN ["echo", "こんにちはExec形式"]
     RUN ["/bin/bash", "-c", "echo 'こんにちはExec形式でbashを使ってみました'"]
+
+<br>
 
 デーモンの実行
 
@@ -284,6 +335,8 @@ Dockerfileには、1つのCMD命令を記述することができます。もし
 
     CMD /usr/sbin/httpd -D FOREGROUND
     CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+
+<br>
 
 デーモンの実行(ENTRYPOINT命令)
 
@@ -297,8 +350,9 @@ ENTRYPOINT命令とCMD命令の違いは、docker runコマンド実行時の動
 
 CMD命令 ・・・ コンテナ起動時に実行したいコマンドを定義しても、docker runコマンド実行時に引数で新たなコマンドを指定した場合、そちらを優先実行する。
 
-=> コンテナ実行時にDockerfileの作成者が意図しないデーモンが実行されうｒこともある。
+⇒ コンテナ実行時にDockerfileの作成者が意図しないデーモンが実行されることもある。
 
+<br>
 
 **コンテナ実行時にコマンド引数を任意に指定したいとき**
 
