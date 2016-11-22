@@ -1,7 +1,7 @@
 Bible
 ======
 
-![studying](https://41.media.tumblr.com/76ac10499bb313da36060ac512cf4f7b/tumblr_nw5c7aU6Kk1r38tr9o1_540.jpg)
+![studying](https://66.media.tumblr.com/c9c4cfd6ace6b2c432753ada084f3693/tumblr_nwomo28mU41u0heywo1_540.gif)
 
 <br>
 
